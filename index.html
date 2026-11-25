@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Wedding Anniversary, Choti di & Abhinav jija ji ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MUSIC -->
+    <audio id="birthday-music" loop preload="auto">
+        <source src="music/dil-basar.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="music-toggle" class="music-toggle" type="button">
+        🔊
+    </button>
+
+    <!-- FLOATING HEARTS -->
+    <div class="floating-hearts">
+        <span>❤️</span>
+        <span>💗</span>
+        <span>💕</span>
+        <span>💖</span>
+        <span>❤️</span>
+        <span>💕</span>
+    </div>
+
+    <!-- PAGE 1 -->
+    <section id="opening-section" class="opening-section page">
+        <div class="opening-content">
+
+            <p class="opening-small">
+                A little surprise is waiting for you...
+            </p>
+
+            <h1>
+                Dear choti Didi & Abhinav Jija Ji ❤️
+            </h1>
+
+            <p class="opening-subtitle">
+                A little celebration of your beautiful journey together.
+            </p>
+
+            <button id="start-button" class="main-button" type="button">
+                Open Your Anniversary Surprise 🎁
+            </button>
+
+        </div>
+    </section>
+
+    <!-- PAGE 2: MAKE A WISH -->
+    <section id="candle-section" class="candle-section page">
+
+        <div class="cream-card candle-card">
+
+            <div class="candle-heading">
+
+                <div class="small-label">
+                    🕯️ CELEBRATE YOUR LOVE
+                </div>
+
+                <h1>Light the candles</h1>
+
+                <p>
+                    Tap each candle and make a wish for their happiness
+                </p>
+
+            </div>
+
+            <div class="cake-area">
+
+                <div class="cake">
+
+                    <button class="candle" type="button">
+                        <span class="flame">🔥</span>
+                        <span class="stick"></span>
+                    </button>
+
+                    <button class="candle" type="button">
+                        <span class="flame">🔥</span>
+                        <span class="stick"></span>
+                    </button>
+
+                    <button class="candle" type="button">
+                        <span class="flame">🔥</span>
+                        <span class="stick"></span>
+                    </button>
+
+                    <button class="candle" type="button">
+                        <span class="flame">🔥</span>
+                        <span class="stick"></span>
+                    </button>
+
+                    <button class="candle" type="button">
+                        <span class="flame">🔥</span>
+                        <span class="stick"></span>
+                    </button>
+
+                    <div class="cake-top"></div>
+                    <div class="cake-body"></div>
+
+                </div>
+
+            </div>
+
+            <div id="candle-counter" class="candle-counter">
+                0 / 5 lit
+            </div>
+
+            <div class="page-dots">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 3: COUNTDOWN -->
+    <section id="countdown-section" class="countdown-section page">
+
+        <div class="countdown-content">
+
+            <div class="countdown-star">✨</div>
+            <div class="countdown-moon">🌙</div>
+
+            <div id="countdown-number" class="countdown-number">
+                6
+            </div>
+
+            <h2>
+                A beautiful journey, made stronger by love...
+            </h2>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 4: BEAUTIFUL JOURNEY -->
+    <section id="age-section" class="age-section page">
+
+        <div class="age-card">
+
+            <div class="age-decoration star">✨</div>
+            <div class="age-decoration moon">🌙</div>
+            <div class="age-decoration balloon">🎈</div>
+            <div class="age-decoration party">🎉</div>
+
+            <div class="age-label">
+                ✨ YEARS OF LOVE & TOGETHERNESS ✨
+            </div>
+
+            <div class="age-pill">
+                another year of togetherness
+            </div>
+
+            <div class="age-number">
+                ❤️
+            </div>
+
+            <div class="age-young">
+                TOGETHER
+            </div>
+
+            <div class="age-wish">
+                Make a wish. ✨
+            </div>
+
+            <div class="age-message">
+
+                <h2>
+                    choti  Didi & Abhinav Jija Ji,
+                </h2>
+
+                <p>
+                    Your journey together is a beautiful story of love, trust and care.
+                </p>
+
+            </div>
+
+            <button id="age-continue" class="age-continue main-button" type="button">
+                Continue
+            </button>
+
+            <div class="age-dots">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 5: MEND THE HEART -->
+    <section id="heart-section" class="heart-section page">
+
+        <div class="heart-card">
+
+            <div class="heart-header">
+
+                <div class="heart-label">
+                    💕 MEND THE HEART
+                </div>
+
+                <h1>
+                    Celebrate your beautiful bond
+                </h1>
+
+            </div>
+
+            <div class="heart-game">
+
+                <div id="heart-left" class="heart-piece heart-left" draggable="true">
+                    <span>❤️</span>
+                </div>
+
+                <div id="heart-target" class="heart-target">
+                    <div class="target-heart">♡</div>
+                </div>
+
+                <div id="heart-right" class="heart-piece heart-right" draggable="true">
+                    <span>❤️</span>
+                </div>
+
+            </div>
+
+            <div class="heart-instruction">
+                Left piece → left half, right piece → right half.
+                Wrong spot? It snaps back.
+            </div>
+
+            <div id="heart-success" class="heart-success">
+                💗 You fixed it!
+            </div>
+
+            <button id="heart-continue" class="heart-continue main-button" type="button">
+                Continue ✨
+            </button>
+
+            <div class="heart-dots">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 6: ANNIVERSARY -->
+    <section id="birthday-section" class="birthday-section page">
+
+        <div class="birthday-content">
+
+            <div class="birthday-cake">
+                💐
+            </div>
+
+            <p class="birthday-small">
+                Today is a very special day for two beautiful hearts...
+            </p>
+
+            <h1>
+                Happy Wedding Anniversary,
+                <br>
+                <span>choti di & Abhinav jija ji ❤️</span>
+            </h1>
+
+            <p class="birthday-description">
+                Because a beautiful journey like yours deserves
+                more than just an ordinary wish.
+            </p>
+
+            <button id="birthday-continue" class="main-button" type="button">
+                There's More... ✨
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 7: MESSAGE -->
+    <section id="message-section" class="message-section page">
+
+        <div class="message-card">
+
+            <div class="section-label">
+                A LITTLE MESSAGE
+            </div>
+
+            <h2>
+                Celebrating Your Love ❤️
+            </h2>
+
+            <div class="message-text">
+
+                <p>
+                    Today is a special day for both of you, and I just want to wish you endless love and happiness.
+                </p>
+
+                <p>
+                    A strong relationship is built with love, trust, care and understanding. May these qualities always make your bond stronger.
+                </p>
+
+                <p>
+                    May every year bring you more reasons to smile, more dreams to share and countless beautiful memories together.
+                </p>
+
+                <p>
+                    May you always stand beside each other, support one another and keep making life beautiful together.
+                </p>
+
+            </div>
+
+            <button id="message-continue" class="main-button" type="button">
+                I Have Something To Tell You 💌
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 8: LETTER -->
+    <section id="letter-section" class="letter-section page">
+
+        <div class="letter-card">
+
+            <div class="letter-icon">💌</div>
+
+            <div class="section-label">
+                A LETTER FOR YOU
+            </div>
+
+            <h2>
+                For You,
+                <br>
+                <span>choti di & Abhinav jija ji ❤️</span>
+            </h2>
+
+            <div class="letter-text">
+
+                <p>
+                    Today is your day, and I just wanted to take
+                    a moment to wish you both a very happy wedding anniversary.
+                </p>
+
+                <p>
+                    Your marriage is a lovely reminder that love grows stronger with every passing year. people care for, respect and support each other.
+                </p>
+
+                <p>
+                    May your life together be filled with happiness, good health, success, peace and many wonderful memories.
+                </p>
+
+                <p>
+                    May you continue to understand each other, celebrate every little moment and face every challenge together.
+                </p>
+
+                <p>
+                    May your home always be filled with laughter, warmth and happiness.
+                </p>
+
+                <p>
+                    May the love you share today keep growing with every passing year.
+                </p>
+
+                <p>
+                    Keep supporting each other, keep smiling and keep creating memories that you will cherish forever.
+                </p>
+
+                <p>
+                    Wishing you both a lifetime of love and togetherness. ❤️
+                </p>
+
+                <p class="letter-ending">
+                    Happy Wedding Anniversary, Choti di & Abhinav Jija Ji! 💐✨
+                </p>
+
+                <p class="signature">
+                    — Kuku
+                </p>
+
+            </div>
+
+            <button id="letter-continue" class="main-button" type="button">
+                One More Thing... ✨
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 9: WISHES -->
+    <section id="agreement-section" class="agreement-section page">
+
+        <div class="agreement-card">
+
+            <div class="agreement-icon">🌸</div>
+
+            <div class="section-label">
+                JUST ONE LITTLE THING
+            </div>
+
+            <h2>
+                A Few Wishes
+                <br>
+                <span>For Your Journey Together ✨</span>
+            </h2>
+
+            <div class="promise-list">
+
+                <div class="promise checked">
+
+                    <div class="promise-number">01</div>
+
+                    <label class="promise-check">
+                        <input type="checkbox" checked disabled>
+                        <span class="custom-checkbox">✓</span>
+                    </label>
+
+                    <p>
+                        Always make time for each other and keep smiling together.
+                    </p>
+
+                </div>
+
+                <div class="promise checked">
+
+                    <div class="promise-number">02</div>
+
+                    <label class="promise-check">
+                        <input type="checkbox" checked disabled>
+                        <span class="custom-checkbox">✓</span>
+                    </label>
+
+                    <p>
+                        Keep supporting each other in every dream and every goal.
+                    </p>
+
+                </div>
+
+                <div class="promise checked">
+
+                    <div class="promise-number">03</div>
+
+                    <label class="promise-check">
+                        <input type="checkbox" checked disabled>
+                        <span class="custom-checkbox">✓</span>
+                    </label>
+
+                    <p>
+                        Make lots of beautiful memories and enjoy every little moment.
+                    </p>
+
+                </div>
+
+                <div class="promise checked">
+
+                    <div class="promise-number">04</div>
+
+                    <label class="promise-check">
+                        <input type="checkbox" checked disabled>
+                        <span class="custom-checkbox">✓</span>
+                    </label>
+
+                    <p>
+                        And most importantly, never stop choosing each other. ❤️
+                    </p>
+
+                </div>
+
+                <div class="promise personal-promise" id="personal-promise">
+
+                    <div class="promise-number">05</div>
+
+                    <label class="promise-check">
+                        <input type="checkbox" id="promise-checkbox">
+                        <span class="custom-checkbox">✓</span>
+                    </label>
+
+                    <p>
+                        We promise to keep love, respect and understanding at the heart of our marriage. ❤️
+                    </p>
+
+                </div>
+
+            </div>
+
+            <p class="agreement-question">
+                May you always take care of each other and keep that beautiful smile. 😊
+            </p>
+
+            <button id="agree-button" class="main-button promise-button" type="button" disabled>
+                Our Promise 🌸
+            </button>
+
+            <p id="promise-hint" class="promise-hint">
+                Tick the last promise to continue ✨
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 10: SURPRISE -->
+    <section id="surprise-section" class="surprise-section page">
+
+        <div class="surprise-card">
+
+            <div class="gift-icon">🎁</div>
+
+            <div class="section-label">
+                ONE LAST SURPRISE
+            </div>
+
+            <h2>
+                There's Something More ❤️
+            </h2>
+
+            <p>
+                A beautiful journey deserves to be remembered.
+            </p>
+
+            <button id="memory-button" class="main-button" type="button">
+                Open the Memories 📸
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 11: PHOTOS -->
+    <section id="photos-section" class="photos-section page">
+
+        <div class="photos-container">
+
+            <div class="section-label">
+                YOUR BEAUTIFUL MEMORIES
+            </div>
+
+            <h2>
+                A Journey To Remember ❤️
+            </h2>
+
+            <p class="photo-subtitle">
+                One memory at a time...
+            </p>
+
+            <div class="memory-viewer">
+
+                <button id="previous-photo" class="photo-arrow main-button" type="button">
+                    ❮
+                </button>
+
+                <div class="polaroid">
+
+                    <div class="photo-frame">
+                        <img id="memory-image" alt="Memory">
+                    </div>
+
+                    <div id="memory-title" class="memory-title"></div>
+
+                </div>
+
+                <button id="next-photo" class="photo-arrow main-button" type="button">
+                    ❯
+                </button>
+
+            </div>
+
+            <div class="photo-counter">
+                <span id="current-photo">1</span>
+                / 9
+            </div>
+
+            <div class="final-message">
+
+                <p>
+                    Every moment together becomes a memory to treasure. ❤️
+                </p>
+
+                <h3>
+                    Happy Wedding Anniversary, Choti  & Abhinav! 💐
+                </h3>
+
+                <p>— Kuku</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="anniversary.js"></script>
+
+</body>
+</html>
